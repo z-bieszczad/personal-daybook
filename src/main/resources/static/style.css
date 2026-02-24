@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+
+body {
+    background-color: #f0f4f8; /* jasny pastelowy szary-niebieski */
+    font-family: 'Nunito', Arial, sans-serif; /* przyjazny, nowoczesny font */
+    color: #333;
+    margin: 0;
+}
+
+
+.container {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+
+h1 {
+    color: #ff6b81; /* delikatny, „cute” różowy */
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+
+.navbar {
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-weight: 600;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.nav-link:hover, .nav-link.active {
+    background-color: #ff6b81;
+    color: #fff !important;
+}
+
+
+.nav-tabs {
+    border-bottom: none;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    background-color: #f8d7da;
+    color: #b31217;
+    margin: 0 5px;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #ff6b81;
+    color: #fff;
+}
+
+
+.tab-content {
+    margin-top: 20px;
+}
+
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    padding: 12px 15px;
+    background-color: #fff0f5;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    transition: 0.2s;
+}
+
+.list-group-item:hover {
+    background-color: #ffe0eb;
+}
+
+
+.btn-add {
+    background-color: #ff6b81;
+    color: #fff;
+    border-radius: 12px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-add:hover {
+    background-color: #e05570;
+    color: #fff;
+}
+
+
+input.form-control {
+    border-radius: 12px;
+    border: 1px solid #ffccd5;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #888;
+    font-size: 0.9rem;
+}
